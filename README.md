@@ -11,11 +11,13 @@ This project contains everything you need to run your app locally.
 1. Clone the repository using the project's Git URL
 2. Navigate to the project directory
 3. Install dependencies: `npm install`
-4. Create an `.env` file with your Supabase credentials or use the provided `.env`
+4. Create an `.env` file with your Supabase credentials
+
+Example `.env`:
 
 ```
 VITE_SUPABASE_URL=https://vuzrhhzssetakpzwctmg.supabase.co
-VITE_SUPABASE_ANON_KEY=sb_publishable_U6Qaa_MFfJmgKV6mB6HC1Q_75OD1pnj
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 ```
 
 Run the app: `npm run dev`
