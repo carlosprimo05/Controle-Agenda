@@ -1,0 +1,10 @@
+Após a alteração, por favor:
+
+1) Recarregue a página (CTRL+R).
+2) Abra DevTools → aba Network.
+3) Submeta o formulário de agendamento.
+4) Na aba Network, selecione a requisição para `/rest/v1/Service` que retornou 400.
+   - Copie o corpo da resposta (Response) e cole aqui.
+   - Copie também o Request Payload e cole aqui.
+
+Se preferir, abra o Console e cole a saída completa do `console.error` referente ao erro (o log com 'Erro ao criar/atualizar serviço').
